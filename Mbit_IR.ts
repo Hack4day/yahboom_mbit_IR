@@ -30,6 +30,16 @@ namespace Mbit_IR {
     export function onPressEvent(btn: RemoteButton, body:Action): void {
       return
     }
+    /**
+     * buttonValue
+     */
+    //% blockId=Mbit_IR_value
+    //% blockGap=20 weight=88
+    //% block
+    //% shim=Mbit_IR::irValue
+    export function irValue(): number {
+      return 0;
+  }
   
   
   }

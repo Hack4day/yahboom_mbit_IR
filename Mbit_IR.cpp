@@ -96,6 +96,11 @@ namespace Mbit_IR {
   //%
   void onPressEvent(RemoteButton btn, Action body) {
     actions[btn].push_back(body);
+  //%
+  }
+  int irValue()
+  {
+    return buf[2];
   }
 
 }
