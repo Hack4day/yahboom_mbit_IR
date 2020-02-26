@@ -13,7 +13,7 @@
         "ReceiverIR.cpp",
         "ReceiverIR.h",
         "RemoteIR.h",
-        "Mbit_IR.ts",
+        "Mbit_IR.ts"
     ],
     "testFiles": [
         "test.ts"
